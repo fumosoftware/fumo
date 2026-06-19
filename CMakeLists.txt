@@ -7,4 +7,6 @@ SET(CMAKE_CXX_EXTENSIONS OFF)
 include(cmake/CPM.cmake)
 include(cmake/Dependencies.cmake)
 
-add_executable(fumo main.cpp)
+add_subdirectory(fumo)
+
+add_subdirectory(sandbox)
